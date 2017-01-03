@@ -1,0 +1,37 @@
+{
+  "name": "js-data-structures",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "test:watch": "ava --watch",
+    "prebuild": "rimraf dist",
+    "build": "webpack -p",
+    "start": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terryx/data-structures.git"
+  },
+  "keywords": [
+    "data",
+    "structures"
+  ],
+  "author": "Terry Yuen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/terryx/data-structures/issues"
+  },
+  "homepage": "https://github.com/terryx/data-structures#readme",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "eslint": "^3.12.2",
+    "eslint-loader": "^1.6.1",
+    "rimraf": "^2.5.4",
+    "webpack": "^2.2.0-rc.3"
+  }
+}

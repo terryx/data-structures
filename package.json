@@ -1,7 +1,7 @@
 {
-  "name": "js-data-structures",
+  "name": "jsds",
   "version": "0.1.0",
-  "description": "",
+  "description": "Data structures implemented in javascript",
   "main": "index.js",
   "scripts": {
     "test": "ava",

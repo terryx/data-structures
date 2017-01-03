@@ -1,13 +1,13 @@
 ## Getting Started
 ```bash
-npm install js-data-structures
+npm install jsds
 ```
 
 ## Usage
 ```javascript
-const { Stack } = require('js-data-structures');
+const { Stack } = require('jsds');
 const stack = new Stack();
 
 stack.push(1);
-stack.peek(); //return 1 
+stack.peek(); //return 1
 ```
